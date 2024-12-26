@@ -8,7 +8,6 @@ body {
   line-height: 1.6;
 }
 
-/* تصميم الهيدر */
 header {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -27,9 +26,9 @@ header {
   letter-spacing: 2px;
 }
 
-/* تصميم الـ Hero Section */
+
 .hero {
-  background-image: url('home.jpg'); /* قم بإضافة مسار الصورة هنا */
+  background-image: url('home.jpg'); 
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -44,7 +43,7 @@ header {
   text-align: center;
 }
 
-/* تصميم الكروت في المنيو */
+
 .card {
   border: none;
   border-radius: 10px;
@@ -52,32 +51,32 @@ header {
 }
 
 .highlight {
-  background-color: rgba(0, 0, 0, 0.7); /* لون خلفية التظليل */
-  padding: 8px 12px; /* مساحة حول النص */
-  border-radius: 10px; /* زوايا دائرية */
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* ظل خفيف */
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 8px 12px; 
+  border-radius: 10px; 
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); 
 }
 .highlight {
-  background-color: rgba(0, 0, 0, 0.7); /* لون خلفية التظليل (رمادي داكن مع شفافية) */
-  color: white; /* لون النص (أبيض) - اختياري، لتوضيح النص على الخلفية الداكنة */
-  padding: 5px 10px; /* مساحة حول النص */
-  border-radius: 5px; /* زوايا دائرية */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
 }
 
 .hekaya-styled {
-  color: #f4a400; /* لون النص الأصلي (ذهبي) */
+  color: #f4a400;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   font-style: italic;
-  animation: color-change 5s linear infinite; /* تشغيل التغيير التلقائي للألوان */
+  animation: color-change 5s linear infinite; 
 }
 
 @keyframes color-change {
-  0% { color: #8B0000; } /* أحمر داكن */
-  25% { color: #006400; } /* أخضر داكن */
-  50% { color: #00008B; } /* أزرق داكن */
-  75% { color: #800080; } /* بنفسجي داكن */
-  100% { color: #8B0000; } /* العودة إلى الأحمر الداكن */
+  0% { color: #F2CEE6; } 
+  25% { color: #CDEDFD; } 
+  50% { color: #FADADD; } 
+  75% { color: #E6E6FA; } 
+  100% { color: #5D7988; } 
 }
   
 
@@ -120,4 +119,14 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+footer a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+footer a:hover{
+  color:#f5f5f5;
 }
